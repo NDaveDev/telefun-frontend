@@ -99,13 +99,13 @@ export const chainLogos = {
     1: '/eth.svg'
 }
 
-export const imageUrl = 'http://pgc80o0w848w4kcokg8oosg4.38.97.62.163.sslip.io/api/uploads/'
+export const imageUrl = 'https://api.agentsys.io/api/uploads/'
 
-export const apiUrl = 'http://pgc80o0w848w4kcokg8oosg4.38.97.62.163.sslip.io'
+export const apiUrl = 'https://api.agentsys.io'
 
 export const ethPriceApiUrl = 'https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD'
 
-export const imageUploadUrl = 'http://pgc80o0w848w4kcokg8oosg4.38.97.62.163.sslip.io'
+export const imageUploadUrl = 'https://api.agentsys.io/'
 
 export default function formatNumber(number) {
     if (number >= 1000000) {
