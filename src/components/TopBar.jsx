@@ -557,7 +557,7 @@ const TopBar = animate => {
                   </span>
                 </a>
                 <a
-                  href="https://docs.agentsys.io"
+                  href="https://agentsys.io/documentation"
                   target="_blank"
                   className="p-2"
                 >
