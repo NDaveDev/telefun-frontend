@@ -202,11 +202,11 @@ const App = () => {
   const onTeleFunCreate = async () => {
     try {
       setCreating(true)
-      let feeAmount = 0.0001
+      let feeAmount = 0.01
       if (Number(depositAmount) > 0) {
-        let newEthAmount = 1.6 + Number(depositAmount)
-        let newTokenAmount = (1073 * 10 ** 6 * 1.6) / newEthAmount
-        let tokenAmount = 1073 * 10 ** 6 - newTokenAmount
+        let newEthAmount = 3 + Number(depositAmount)
+        let newTokenAmount = (1073 * 10 ** 24 * 3) / newEthAmount
+        let tokenAmount = 1073 * 10 ** 24 - newTokenAmount
         let maxAmount = (1000000000 * maxWallet) / 100
         if (tokenAmount > maxAmount) {
           setCreating(false)
