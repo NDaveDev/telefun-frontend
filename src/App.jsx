@@ -13,7 +13,7 @@ import {
   WagmiProvider,
 } from "wagmi";
 
-import { base, bsc, mainnet, polygon, sepolia } from "wagmi/chains";
+import { base, mainnet, polygon, sepolia } from "wagmi/chains";
 import { injected } from "wagmi/connectors";
 import toast, { ToastBar, Toaster } from "react-hot-toast";
 import './index.css';
@@ -22,11 +22,11 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 const projectId = '4807d388fe495226b7fc14743af2e1d9'
 
 export const config = createConfig({
-  chains: [base, bsc, sepolia, polygon, mainnet],
+  chains: [base, sepolia, polygon, mainnet],
   connectors: [injected()], // IN IFRAME MODE HOT available in window.ethereum
   transports: {
     [base.id]: http(),
-    [bsc.id]: http(),
+    [mainnet.id]: http(),
     [sepolia.id]: http(),
     [polygon.id]: http()
   },

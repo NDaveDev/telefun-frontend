@@ -7,7 +7,7 @@ import {
   useReconnect,
 } from "wagmi";
 import { injected } from "wagmi/connectors";
-import { base, bsc } from "wagmi/chains";
+import { base, mainnet } from "wagmi/chains";
 import { useEffect } from "react";
 import HOT from './hot.ts'
 import { parseEther } from "viem";
