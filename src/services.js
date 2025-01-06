@@ -126,18 +126,18 @@ export const initWeb3Onboard = init({
         //   label: 'Polygon - Mumbai',
         //   rpcUrl: 'https://matic-mumbai.chainstacklabs.com	'
         // },
-        {
-            id: '0x38',
-            token: 'BNB',
-            label: 'Binance',
-            rpcUrl: 'https://bsc-dataseed.binance.org/'
-        },
-        {
-            id: '0x61',
-            token: 'testBNB',
-            label: 'test Binance',
-            rpcUrl: 'https://bsc-testnet.public.blastapi.io/'
-        },
+        // {
+        //     id: '0x38',
+        //     token: 'BNB',
+        //     label: 'Binance',
+        //     rpcUrl: 'https://bsc-dataseed.binance.org/'
+        // },
+        // {
+        //     id: '0x61',
+        //     token: 'testBNB',
+        //     label: 'test Binance',
+        //     rpcUrl: 'https://bsc-testnet.public.blastapi.io/'
+        // },
 
         // {
         //   id: '0x89',

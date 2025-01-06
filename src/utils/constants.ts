@@ -5,13 +5,17 @@ import Web3 from 'web3'
 export const multicallAddress = {
     1: "0x98Af6f0A868269C9cFA9039754c9C6E825257879"
 };
+
 export const factoryAddress = {
     1: "0xF165C5064a4dbfE81b3b4c1486fD9BAeA17a1eA6"
 };
+
 export const contractAddress = "0x0000000000000000000000000000000000000000";
+
 export const WETHAddress = {
     1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
 };
+
 export const routerAddress = {
     1: "0x7a250d5630b4cf539739df2c5dacb4c659f2488d"
 };
@@ -21,9 +25,11 @@ export const apiKeys = {
 }
 
 export const CHAIN_ID = 1;
+
 export const defaultAddress = "0x0000000000000000000000000000000000000000";
 
 const PROVIDER_URL_ETH = 'https://mainnet.infura.io/v3/42d99144084e41669207f6fa4c845d75'
+
 export const web3EtherClient = new Web3(new Web3.providers.HttpProvider(PROVIDER_URL_ETH))
 
 

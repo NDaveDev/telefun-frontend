@@ -7,7 +7,7 @@ import {
   useReconnect,
 } from "wagmi";
 import { injected } from "wagmi/connectors";
-import { base, mainnet } from "wagmi/chains";
+import { mainnet } from "wagmi/chains";
 import { useEffect } from "react";
 import HOT from './hot.ts'
 import { parseEther } from "viem";
@@ -16,7 +16,7 @@ import { parseEther } from "viem";
 
 declare global {
   interface Window {
-    ethereum: any;
+    Ethereum: any;
   }
 }
 
