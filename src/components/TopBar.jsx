@@ -21,7 +21,7 @@ import formatNumber, {
   supportedChainIds,
   CHAIN_ID
 } from '../utils/constants.ts'
-import { ExampleEVM } from '../NewEVM.tsx'
+import { ExampleEVM } from '../ExampleEVM.tsx'
 
 const TopBar = animate => {
   const [isExpanded, setIsExpanded] = useState(false)
