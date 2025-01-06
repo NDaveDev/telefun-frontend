@@ -24,7 +24,7 @@ import trustModule from '@web3-onboard/trust'
 
 // Replace with your DApp's Infura ID
 const INFURA_ID = 'cea9deb6467748b0b81b920b005c10c1'
-export const infuraRPC = `https://eth.llamarpc.com/`
+export const infuraRPC = `https://mainnet.infura.io/v3/42d99144084e41669207f6fa4c845d75`
 
 const dappId = '937627e1-3507-44b8-af10-72728aa5f74b'
 

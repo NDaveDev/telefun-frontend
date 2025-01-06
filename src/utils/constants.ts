@@ -39,7 +39,7 @@ export const defaultAddress = "0x0000000000000000000000000000000000000000";
 const PROVIDER_URL_SEP = 'https://ethereum-sepolia-rpc.publicnode.com'
 export const web3Client = new Web3(new Web3.providers.HttpProvider(PROVIDER_URL_SEP))
 
-const PROVIDER_URL_ETH = 'https://ethereum-rpc.publicnode.com'
+const PROVIDER_URL_ETH = 'https://mainnet.infura.io/v3/42d99144084e41669207f6fa4c845d75'
 export const web3EtherClient = new Web3(new Web3.providers.HttpProvider(PROVIDER_URL_ETH))
 
 const PROVIDER_URL_POLYGON = 'https://polygon.llamarpc.com'
