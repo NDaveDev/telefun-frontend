@@ -340,6 +340,7 @@ const Profile = () => {
 
     } catch (err) {
       setLoading(false)
+      console.error(err)
       toast.error(
         'There is a problem with your update. Try again later'
       )

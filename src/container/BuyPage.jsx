@@ -284,6 +284,7 @@ const App = () => {
         const remainTokenAmount = 1000000000 * maxBuyAmount / 100 - Number(tokenBalance);
         toast.error("You can't purchase more than " + remainTokenAmount.toLocaleString() + ' ' + tokenName)
       } else {
+        console.error(err)
         toast.error('There is a problem with your Swap. Please try again later')
       }
       setCreating(false)
