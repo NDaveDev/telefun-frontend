@@ -120,7 +120,7 @@ const App = () => {
   } else {
     refAddress = defaultAddress
   }
-  const BASE_URL = 'https://TeleFun.com/buy/?chain=' + chainId + '&address=' + TeleFunAddress
+  const BASE_URL = 'https://miniapp.agentsys.io/buy/?chain=' + chainId + '&address=' + TeleFunAddress
   const referlink = address ? `${BASE_URL}/?ref=${rot13(address)}` : `${BASE_URL}/?ref=`
 
   const copyAddress = address => async e => {
