@@ -16,7 +16,7 @@ import { parseEther } from "viem";
 
 declare global {
   interface Window {
-    Ethereum: any;
+    ethereum: any;
   }
 }
 
